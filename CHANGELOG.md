@@ -7,6 +7,9 @@ Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão e
 ### Alterado
 - Guia de instalação reescrito com o caminho atual: **Personalizar → Skills → + → Criar skill → Enviar uma skill**, passos separados para o Claude normal (navegador) e o Claude Desktop, ativação da execução de código e sincronização com o Claude Code.
 
+### Adicionado
+- `scripts/backup.sh`: backup local em `BACKUPS/` com `.zip` dos arquivos e `.bundle` do histórico Git.
+
 ## v1.0.0 — 13/11/2026
 
 ### Adicionado

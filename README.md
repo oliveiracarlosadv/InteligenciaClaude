@@ -70,7 +70,8 @@ InteligenciaClaude/
 ├── CHANGELOG.md           ← histórico de versões
 ├── docs/                  ← manual completo
 ├── scripts/
-│   └── empacotar.sh       ← gera os .zip de cada skill
+│   ├── empacotar.sh       ← gera os .zip de cada skill
+│   └── backup.sh          ← backup local (.zip + histórico Git)
 ├── templates/
 │   └── SKILL-modelo.md    ← ponto de partida para novas skills
 └── skills/
