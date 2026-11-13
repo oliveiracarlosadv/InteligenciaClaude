@@ -1,34 +1,95 @@
 # InteligenciaClaude
 
-Coleção de skills para o Claude criadas por Carlos A. A. Oliveira (OAB/PA 33996), todas em Markdown.
+Biblioteca de **skills para o Claude** voltadas à advocacia e à produção técnica, criadas por **Carlos A. A. Oliveira — OAB/PA 33996**.
 
-Cada skill fica em `skills/<nome>/`:
+Uma skill é um conjunto de instruções em Markdown que ensina o Claude a trabalhar de um jeito específico: como um advogado previdenciarista, como um pesquisador de jurisprudência, como um revisor de textos. Você instala uma vez e o Claude passa a usá-la sempre que o assunto aparecer.
 
-- `SKILL.md`: as instruções da skill, com `name` e `description` no cabeçalho
-- `README.md`: a apresentação e o modo de uso
-
-## Skills
-
-| Skill | Área |
-|---|---|
-| [AdvogadoPrevidenciarioCAAO](skills/advogadoprevidenciariocaao/SKILL.md) | Direito Previdenciário |
-| [AdvogadoTrabalhistaCAAO](skills/advogadotrabalhistacaao/SKILL.md) | Direito do Trabalho |
-| [AdvogadoTributaristaCAAO](skills/advogadotributaristacaao/SKILL.md) | Direito Tributário |
-| [AssistenteJuridicoCompletoCAAO](skills/assistentejuridicocompletocaao/SKILL.md) | Cálculos, peças e estratégia |
-| [CAAO_DireitoServidorPublicoPA](skills/caao-direitoservidorpublicopa/SKILL.md) | Servidor público de Belém e do Pará |
-| [CIVILISTA_CAAO](skills/civilista-caao/SKILL.md) | Direito Civil e Processual Civil |
-| [EscritaHumanaCAAO](skills/escritahumanacaao/SKILL.md) | Redação humanizada em português |
-| [JurisprudenciaLeisBRCAAO](skills/jurisprudencialeisbrcaao/SKILL.md) | Leis e jurisprudência em fontes oficiais |
-| [JurisprudenciaSearchPro_CAAO](skills/jurisprudenciasearchpro-caao/SKILL.md) | Busca de jurisprudência com links |
-| [RevisaoTecnicaArtigosQuimicaEN](skills/revisaotecnicaartigosquimicaen/SKILL.md) | Revisão de artigos de Química (PT/EN) |
-| [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/SKILL.md) | Redes sociais para advogados |
-| [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/SKILL.md) | Segurança e Saúde no Trabalho |
-| [resposta-objetiva](skills/resposta-objetiva/SKILL.md) | Respostas curtas e diretas |
-
-## Como usar
-
-Copie a pasta da skill para `~/.claude/skills/` (Claude Code) ou importe o `SKILL.md` no Claude.
+Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis de ler, editar e versionar.
 
 ---
 
-Instagram: @oliveiraCarlosADV · Site: http://www.oliveiracarlos.adv.br
+## Skills disponíveis
+
+| Skill | Para que serve |
+|---|---|
+| [AdvogadoPrevidenciarioCAAO](skills/advogadoprevidenciariocaao/) | Aposentadorias, benefícios do INSS, BPC/LOAS, revisões e planejamento previdenciário |
+| [AdvogadoTrabalhistaCAAO](skills/advogadotrabalhistacaao/) | Consultas trabalhistas, petições, contestações, recursos e compliance |
+| [AdvogadoTributaristaCAAO](skills/advogadotributaristacaao/) | Planejamento tributário, execução fiscal, autos de infração e créditos |
+| [AssistenteJuridicoCompletoCAAO](skills/assistentejuridicocompletocaao/) | Peças, cálculos, análise processual e revisão em qualquer área |
+| [CAAO_DireitoServidorPublicoPA](skills/caao-direitoservidorpublicopa/) | Direitos de servidores de Belém e do Estado do Pará |
+| [CIVILISTA_CAAO](skills/civilista-caao/) | Direito Civil e Processual Civil: contratos, família, sucessões, execução |
+| [EscritaHumanaCAAO](skills/escritahumanacaao/) | Texto natural, gramática correta e formatação ABNT |
+| [JurisprudenciaLeisBRCAAO](skills/jurisprudencialeisbrcaao/) | Leis e jurisprudência só em fontes oficiais, com número e link |
+| [JurisprudenciaSearchPro_CAAO](skills/jurisprudenciasearchpro-caao/) | Busca de jurisprudência no TJPA, TRT8, TRF, STJ, STF e TST |
+| [RevisaoTecnicaArtigosQuimicaEN](skills/revisaotecnicaartigosquimicaen/) | Revisão de artigos científicos de Química em português e inglês |
+| [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/) | Redes sociais para advogados, dentro da ética da OAB |
+| [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/) | Segurança e Saúde no Trabalho, NRs e investigação de acidentes |
+| [resposta-objetiva](skills/resposta-objetiva/) | Respostas curtíssimas, sempre no formato `Pergunta: - "Resposta"` |
+
+Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
+
+---
+
+## Começo rápido
+
+**Quero só uma skill:** baixe o `.zip` pronto dela na [tabela de downloads](docs/02-instalacao.md#baixar-somente-uma-skill) e envie ao Claude.
+
+**No Claude Code, todas de uma vez:**
+
+```bash
+git clone https://github.com/oliveiracarlosadv/InteligenciaClaude.git
+mkdir -p ~/.claude/skills
+cp -R InteligenciaClaude/skills/* ~/.claude/skills/
+```
+
+**No Claude.ai ou no app Claude:** envie o `.zip` da skill em **Configurações → Capacidades → Skills**.
+
+O passo a passo completo está em [Instalação](docs/02-instalacao.md).
+
+---
+
+## Manual
+
+1. [Como funciona](docs/01-como-funciona.md): o que é uma skill e como o Claude decide usá-la
+2. [Instalação](docs/02-instalacao.md): Claude.ai, app Claude e Claude Code
+3. [Como usar](docs/03-como-usar.md): ativar, pedir documentos e boas práticas
+4. [Criar ou editar uma skill](docs/04-criar-skill.md): estrutura, regras e publicação aqui
+5. [Padrão CAAO](docs/05-padrao-caao.md): cabeçalho, rodapé e identidade dos documentos
+6. [Catálogo](docs/06-catalogo.md): o que cada skill faz e exemplos de pedido
+7. [Perguntas frequentes](docs/07-perguntas-frequentes.md)
+
+Também: [modelo de skill](templates/SKILL-modelo.md) · [histórico de mudanças](CHANGELOG.md)
+
+---
+
+## Estrutura do repositório
+
+```
+InteligenciaClaude/
+├── README.md              ← esta página (Sobre)
+├── CHANGELOG.md           ← histórico de versões
+├── docs/                  ← manual completo
+├── scripts/
+│   └── empacotar.sh       ← gera os .zip de cada skill
+├── templates/
+│   └── SKILL-modelo.md    ← ponto de partida para novas skills
+└── skills/
+    └── <nome-da-skill>/
+        ├── SKILL.md       ← instruções que o Claude lê
+        └── README.md      ← apresentação para pessoas
+```
+
+---
+
+## Aviso importante
+
+As skills são **ferramentas de apoio**. Elas produzem rascunhos, pesquisas e orientações, mas **não substituem a análise do advogado responsável**. Confira prazos, valores, leis e jurisprudência nas fontes oficiais antes de protocolar ou enviar qualquer documento.
+
+Nunca coloque dados de clientes (nomes, CPF, processos) dentro dos arquivos das skills: este repositório é público.
+
+---
+
+## Autor
+
+**Carlos A. A. Oliveira** — OAB/PA 33996
+Instagram: [@oliveiraCarlosADV](https://www.instagram.com/oliveiracarlosadv) · Site: http://www.oliveiracarlos.adv.br
