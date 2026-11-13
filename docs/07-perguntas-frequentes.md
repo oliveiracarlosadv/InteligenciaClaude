@@ -4,7 +4,15 @@
 
 ### Preciso saber programar?
 
-Não. As skills são textos em Markdown. Para instalar no Claude.ai basta compactar uma pasta e enviar. Veja [Instalação](02-instalacao.md).
+Não. As skills são textos em Markdown. Para instalar no Claude normal ou no Desktop, basta baixar o `.zip` e enviar. Veja [Instalação](02-instalacao.md).
+
+### Instalei no navegador. Preciso instalar de novo no Claude Desktop?
+
+Não. O Claude normal e o Claude Desktop usam a mesma conta, então a skill aparece nos dois.
+
+### Não acho o menu "Personalizar"
+
+Atualize o app ou recarregue a página. Em inglês, o menu se chama **Customize**. Se mesmo assim não aparecer e você usa um plano Team ou Enterprise, peça ao administrador para liberar as skills.
 
 ### Posso instalar todas ao mesmo tempo?
 
@@ -12,11 +20,12 @@ Sim. O Claude só abre a skill que combina com o seu pedido, então ter várias 
 
 ### A skill não foi usada. O que fazer?
 
-1. Confira se ela está **ativada** (Claude.ai) ou na pasta `~/.claude/skills/` (Claude Code).
-2. No Claude Code, abra uma **sessão nova**.
-3. Chame pelo nome: "Use a skill CIVILISTA_CAAO para ...".
+1. Confira se a **execução de código** está ligada em Configurações → Capacidades.
+2. Confira se a chave da skill está **ligada** em Personalizar → Skills (Claude normal e Desktop) ou se a skill está na pasta `~/.claude/skills/` (Claude Code).
+3. No Claude Code, abra uma **sessão nova**.
+4. Chame pelo nome: "Use a skill CIVILISTA_CAAO para ...".
 
-### Deu erro ao enviar o `.zip` no Claude.ai
+### Deu erro ao enviar o `.zip`
 
 - O `.zip` deve conter **a pasta da skill**, e o `SKILL.md` precisa estar dentro dela.
 - Envie **uma skill por `.zip`**.

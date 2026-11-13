@@ -42,7 +42,7 @@ mkdir -p ~/.claude/skills
 cp -R InteligenciaClaude/skills/* ~/.claude/skills/
 ```
 
-**No Claude.ai ou no app Claude:** envie o `.zip` da skill em **Configurações → Capacidades → Skills**.
+**No Claude normal (claude.ai) ou no Claude Desktop:** ligue a execução de código em **Configurações → Capacidades** e envie o `.zip` em **Personalizar → Skills → + → Criar skill → Enviar uma skill**.
 
 O passo a passo completo está em [Instalação](docs/02-instalacao.md).
 
@@ -51,7 +51,7 @@ O passo a passo completo está em [Instalação](docs/02-instalacao.md).
 ## Manual
 
 1. [Como funciona](docs/01-como-funciona.md): o que é uma skill e como o Claude decide usá-la
-2. [Instalação](docs/02-instalacao.md): Claude.ai, app Claude e Claude Code
+2. [Instalação](docs/02-instalacao.md): Claude normal (navegador), Claude Desktop e Claude Code
 3. [Como usar](docs/03-como-usar.md): ativar, pedir documentos e boas práticas
 4. [Criar ou editar uma skill](docs/04-criar-skill.md): estrutura, regras e publicação aqui
 5. [Padrão CAAO](docs/05-padrao-caao.md): cabeçalho, rodapé e identidade dos documentos

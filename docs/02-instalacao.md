@@ -3,10 +3,12 @@
 [← Voltar ao início](../README.md)
 
 - [Baixar somente uma skill](#baixar-somente-uma-skill)
-- [A. Claude.ai e app Claude](#a-claudeai-e-app-claude)
-- [B. Claude Code](#b-claude-code)
-- [C. Atualizar uma skill já instalada](#c-atualizar-uma-skill-já-instalada)
-- [D. Remover uma skill](#d-remover-uma-skill)
+- [Antes de tudo: ativar a execução de código](#antes-de-tudo-ativar-a-execução-de-código)
+- [A. Claude normal (navegador, claude.ai)](#a-claude-normal-navegador-claudeai)
+- [B. Claude Desktop (app do Mac ou do Windows)](#b-claude-desktop-app-do-mac-ou-do-windows)
+- [C. Claude Code](#c-claude-code)
+- [D. Atualizar uma skill já instalada](#d-atualizar-uma-skill-já-instalada)
+- [E. Remover uma skill](#e-remover-uma-skill)
 
 ---
 
@@ -33,7 +35,7 @@ Cada skill tem um **`.zip` pronto**, no formato que o Claude aceita. Clique no l
 
 Os links apontam sempre para a **versão mais recente**. Todas as versões ficam em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
-**Não descompacte** se for usar no Claude.ai ou no app: envie o `.zip` do jeito que baixou (veja a seção A).
+**Não descompacte** se for usar no Claude normal ou no Desktop: envie o `.zip` do jeito que baixou (veja as seções A e B).
 
 ### Outros jeitos de baixar uma skill só
 
@@ -44,24 +46,66 @@ Os links apontam sempre para a **versão mais recente**. Todas as versões ficam
 3. No canto superior direito do arquivo, clique no botão **Download raw file** (ícone de seta para baixo).
 4. No seu computador, crie uma pasta com o nome da skill (ex.: `civilista-caao`) e coloque o `SKILL.md` dentro.
 
-**Pelo Terminal (Claude Code):** veja [B. Instalar só uma](#instalar-só-uma).
+**Pelo Terminal (Claude Code):** veja [C. Instalar só uma](#instalar-só-uma).
 
 ---
 
-## A. Claude.ai e app Claude
+## Antes de tudo: ativar a execução de código
 
-O Claude.ai (navegador) e o app Claude (Mac/Windows) usam a mesma conta. Instalando em um, a skill aparece no outro.
+As skills só funcionam com a **execução de código** ligada. Faça isso uma vez só, no Claude normal (navegador) ou no Claude Desktop, porque a configuração vale para a conta inteira:
 
-> Os nomes dos menus podem mudar um pouco conforme a versão do Claude e o seu plano.
+1. Clique no seu **nome ou nas suas iniciais**, no canto inferior esquerdo.
+2. Abra **Configurações** (*Settings*).
+3. Entre em **Capacidades** (*Capabilities*).
+4. Ligue **Execução de código e criação de arquivos** (*Code execution and file creation*). Nas versões mais novas, o nome é **Criar e editar arquivos** (*Create and edit files*).
 
-1. Baixe o `.zip` da skill na [tabela acima](#baixar-somente-uma-skill).
-2. No Claude, abra **Configurações** (clique no seu nome ou nas iniciais).
-3. Vá em **Capacidades** (*Capabilities*).
-4. Na área **Skills**, clique em **Enviar skill** (*Upload skill*).
-5. Escolha o `.zip` baixado.
-6. Confirme que a skill aparece na lista e está **ativada**.
+> Planos **Team** e **Enterprise**: se a opção não aparecer, peça ao administrador da organização para ativar *Code execution and file creation* e *Skills* em **Configurações da organização → Plugins & skills → Policy**.
 
-Repita para cada skill que quiser. O arquivo `todas-as-skills.zip` serve para guardar ou para o Claude Code. No Claude.ai, envie **uma skill por vez**.
+As skills funcionam em todos os planos: Free, Pro, Max, Team e Enterprise.
+
+---
+
+## A. Claude normal (navegador, claude.ai)
+
+1. Baixe o `.zip` da skill na [tabela acima](#baixar-somente-uma-skill). **Não descompacte.**
+2. Acesse **https://claude.ai** e entre na sua conta.
+3. No menu lateral esquerdo, clique em **Personalizar** (*Customize*).
+4. Abra a aba **Skills**.
+5. Clique no botão **+** e depois em **+ Criar skill** (*+ Create skill*).
+6. Escolha **Enviar uma skill** (*Upload a skill*).
+7. Selecione o `.zip` baixado e confirme.
+8. A skill aparece na lista. Confira se a chave ao lado dela está **ligada**.
+
+Repita do passo 5 ao 8 para cada skill. **Envie uma skill por vez**: o `todas-as-skills.zip` não serve para este envio.
+
+### Testar
+
+Abra uma conversa nova e escreva, por exemplo:
+
+> Use a skill CIVILISTA_CAAO: quais os requisitos da usucapião extraordinária?
+
+Se a skill for usada, a resposta segue o padrão dela, com cabeçalho e rodapé `@oliveiracarlosadv` quando gerar um documento.
+
+---
+
+## B. Claude Desktop (app do Mac ou do Windows)
+
+O Claude Desktop usa **a mesma conta** do navegador. Se você já instalou a skill no claude.ai, ela **já está no app**: não precisa enviar de novo.
+
+Para instalar pelo próprio app:
+
+1. Baixe o `.zip` da skill na [tabela acima](#baixar-somente-uma-skill). **Não descompacte.**
+2. Abra o **Claude Desktop**. Se ainda não tem, baixe em https://claude.ai/download.
+3. No menu lateral esquerdo, clique em **Personalizar** (*Customize*).
+4. Abra a aba **Skills**.
+5. Clique em **+** → **+ Criar skill** → **Enviar uma skill** (*Upload a skill*).
+6. Selecione o `.zip`. No Mac, ele normalmente está na pasta **Downloads**.
+7. Confira se a chave da skill está **ligada**.
+
+### Dicas do app
+
+- **Pela conversa:** no Desktop, você pode pedir ao Claude para ver o `.zip`: arraste o arquivo para a conversa e escreva "o que essa skill faz?". Mas atenção: **arrastar o arquivo para a conversa não instala a skill**. A instalação é só pelo caminho **Personalizar → Skills**.
+- **Aba Code:** o Claude Desktop tem a aba **Code**, que é o Claude Code dentro do app. Quem estiver conectado com a mesma conta recebe automaticamente as skills enviadas no claude.ai. Para instalar só no computador, siga a [seção C](#c-claude-code).
 
 ### Se você mesmo for montar o `.zip`
 
@@ -77,9 +121,11 @@ civilista-caao.zip
 **Mac:** botão direito na pasta → **Comprimir**.
 **Windows:** botão direito na pasta → **Enviar para** → **Pasta compactada**.
 
+> Os nomes dos menus podem variar um pouco conforme o idioma e a versão do Claude. Em inglês, o caminho é **Customize → Skills → + → Create skill → Upload a skill**.
+
 ---
 
-## B. Claude Code
+## C. Claude Code
 
 O Claude Code procura skills em duas pastas:
 
@@ -114,13 +160,17 @@ mkdir -p ~/.claude/skills && cp -R InteligenciaClaude/skills/* ~/.claude/skills/
 
 ### Conferir
 
-Abra uma **nova** sessão do Claude Code e pergunte: "Quais skills você tem disponíveis?". Sessões que já estavam abertas não enxergam skills novas.
+Abra uma **nova** sessão do Claude Code e digite `/skills`. As skills instaladas aparecem na lista. Sessões que já estavam abertas não enxergam skills novas.
+
+### Skills do claude.ai no Claude Code
+
+Se o Claude Code estiver conectado com a **mesma conta** do claude.ai, as skills enviadas pelo navegador ou pelo Desktop aparecem nele sozinhas, no grupo *claude.ai sync* do comando `/skills`. Isso não funciona quando o Claude Code usa chave de API.
 
 ---
 
-## C. Atualizar uma skill já instalada
+## D. Atualizar uma skill já instalada
 
-**Claude.ai / app:** exclua a skill antiga em Configurações → Capacidades → Skills e envie o `.zip` novo.
+**Claude normal e Desktop:** em **Personalizar → Skills**, clique na skill, depois em **...** ao lado da chave → **Excluir** (*Delete*). Em seguida, envie o `.zip` novo como na [seção A](#a-claude-normal-navegador-claudeai).
 
 **Claude Code:** rode de novo o comando de [instalar só uma](#instalar-só-uma), ou, se clonou o repositório:
 
@@ -132,9 +182,9 @@ Veja o que mudou em cada versão no [CHANGELOG](../CHANGELOG.md).
 
 ---
 
-## D. Remover uma skill
+## E. Remover uma skill
 
-**Claude.ai / app:** Configurações → Capacidades → Skills → desative ou exclua a skill.
+**Claude normal e Desktop:** em **Personalizar → Skills**, desligue a chave da skill para pausar, ou clique em **...** → **Excluir** para remover.
 
 **Claude Code:** apague a pasta dela em `~/.claude/skills/`.
 

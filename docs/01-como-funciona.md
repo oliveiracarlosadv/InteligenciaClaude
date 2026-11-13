@@ -48,9 +48,9 @@ O `README.md` **não é lido pelo Claude** para executar a tarefa. Ele existe pa
 
 | Onde | Como instalar |
 |---|---|
-| Claude.ai (navegador) | Enviando um `.zip` da pasta nas configurações |
-| App Claude (Mac/Windows) | Igual ao Claude.ai, a conta é a mesma |
-| Claude Code | Copiando a pasta para `~/.claude/skills/` |
+| Claude normal (claude.ai, no navegador) | Enviando o `.zip` em **Personalizar → Skills** |
+| Claude Desktop (Mac/Windows) | Pelo mesmo caminho. Como a conta é a mesma, o que você instalar em um aparece no outro |
+| Claude Code | Copiando a pasta para `~/.claude/skills/` ou recebendo automaticamente as skills da conta |
 
 Detalhes em [Instalação](02-instalacao.md).
 
