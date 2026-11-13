@@ -23,6 +23,7 @@ Cada skill fica em `skills/<nome>/`:
 | [RevisaoTecnicaArtigosQuimicaEN](skills/revisaotecnicaartigosquimicaen/SKILL.md) | Revisão de artigos de Química (PT/EN) |
 | [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/SKILL.md) | Redes sociais para advogados |
 | [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/SKILL.md) | Segurança e Saúde no Trabalho |
+| [resposta-objetiva](skills/resposta-objetiva/SKILL.md) | Respostas curtas e diretas |
 
 ## Como usar
 
