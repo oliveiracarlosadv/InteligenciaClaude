@@ -52,9 +52,9 @@ As skills CAAO trazem um parágrafo institucional sobre o autor, com OAB, redes 
 | Alinhamento | Justificado |
 | Margens | ABNT |
 
-## Exceção
+## Exceções
 
-A skill `resposta-objetiva` **não** usa cabeçalho nem rodapé: ela existe justamente para dar respostas mínimas.
+As skills `resposta-objetiva` e `especialista-escala-5x2` **não** usam cabeçalho nem rodapé CAAO: elas têm formato próprio de resposta, curto e direto.
 
 ## Próximo passo
 

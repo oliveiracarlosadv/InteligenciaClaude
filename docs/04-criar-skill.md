@@ -79,7 +79,7 @@ Depois de enviar as mudanças ao GitHub, gere os `.zip` e publique uma Release p
 gh release create v1.1.0 dist/*.zip --title "v1.1.0" --notes "Veja o CHANGELOG.md"
 ```
 
-Os links da [tabela de downloads](02-instalacao.md#baixar-somente-uma-skill) passam a apontar para a nova versão automaticamente.
+Os links da [tabela de downloads](02-instalacao.md#baixar-somente-uma-skill) e o destaque **Download da versão mais recente** no README passam a apontar para a nova versão automaticamente. Esse destaque deve ficar sempre no topo do README.
 
 ## Próximo passo
 

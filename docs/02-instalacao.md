@@ -31,6 +31,7 @@ Cada skill tem um **`.zip` pronto**, no formato que o Claude aceita. Clique no l
 | SocialMediaAdvExpert_CAAO | [socialmediaadvexpert-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/socialmediaadvexpert-caao.zip) |
 | SSTSEMSTSegPrev_CAAO | [sstsemstsegprev-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/sstsemstsegprev-caao.zip) |
 | resposta-objetiva | [resposta-objetiva.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/resposta-objetiva.zip) |
+| especialista-escala-5x2 | [especialista-escala-5x2.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/especialista-escala-5x2.zip) |
 | **Todas as skills** | [todas-as-skills.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/todas-as-skills.zip) |
 
 Os links apontam sempre para a **versão mais recente**. Todas as versões ficam em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).

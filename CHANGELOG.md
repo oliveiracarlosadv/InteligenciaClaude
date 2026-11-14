@@ -2,13 +2,15 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
-## Não lançado
+## v1.1.0 — 14/11/2026
+
+### Adicionado
+- Skill `especialista-escala-5x2`: montagem, validação e cálculo de escalas de trabalho 5x2.
+- Destaque no README com o link de download da versão mais recente.
+- `scripts/backup.sh`: backup local em `BACKUPS/` com `.zip` dos arquivos e `.bundle` do histórico Git.
 
 ### Alterado
 - Guia de instalação reescrito com o caminho atual: **Personalizar → Skills → + → Criar skill → Enviar uma skill**, passos separados para o Claude normal (navegador) e o Claude Desktop, ativação da execução de código e sincronização com o Claude Code.
-
-### Adicionado
-- `scripts/backup.sh`: backup local em `BACKUPS/` com `.zip` dos arquivos e `.bundle` do histórico Git.
 
 ## v1.0.0 — 13/11/2026
 

@@ -1,10 +1,20 @@
 # InteligenciaClaude
 
-Biblioteca de **skills para o Claude** voltadas à advocacia e à produção técnica, criadas por **Carlos A. A. Oliveira — OAB/PA 33996**.
+Biblioteca de **skills para o Claude** voltadas à advocacia, à gestão de pessoas e à produção técnica, criadas por **Carlos A. A. Oliveira — OAB/PA 33996**.
 
 Uma skill é um conjunto de instruções em Markdown que ensina o Claude a trabalhar de um jeito específico: como um advogado previdenciarista, como um pesquisador de jurisprudência, como um revisor de textos. Você instala uma vez e o Claude passa a usá-la sempre que o assunto aparecer.
 
 Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis de ler, editar e versionar.
+
+---
+
+## ⬇️ Download da versão mais recente
+
+> ### [📦 Baixar todas as skills (.zip)](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/todas-as-skills.zip)
+>
+> **[Ver a última versão (Release) e baixar uma skill só →](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest)**
+>
+> Estes links apontam sempre para o lançamento mais recente. Para o Claude normal ou o Claude Desktop, envie **um `.zip` por skill**: a lista com o link de cada uma está na [tabela de downloads](docs/02-instalacao.md#baixar-somente-uma-skill).
 
 ---
 
@@ -25,6 +35,7 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 | [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/) | Redes sociais para advogados, dentro da ética da OAB |
 | [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/) | Segurança e Saúde no Trabalho, NRs e investigação de acidentes |
 | [resposta-objetiva](skills/resposta-objetiva/) | Respostas curtíssimas, sempre no formato `Pergunta: - "Resposta"` |
+| [especialista-escala-5x2](skills/especialista-escala-5x2/) | Montagem, validação e cálculo de escalas de trabalho 5x2 |
 
 Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 

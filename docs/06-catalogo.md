@@ -15,6 +15,7 @@
 - [SocialMediaAdvExpert_CAAO](#socialmediaadvexpert_caao)
 - [SSTSEMSTSegPrev_CAAO](#sstsemstsegprev_caao)
 - [resposta-objetiva](#resposta-objetiva)
+- [especialista-escala-5x2](#especialista-escala-5x2)
 
 ---
 
@@ -164,6 +165,19 @@ Qual a capital do Brasil?
 
 **Exemplo de pedido:**
 - "Use a resposta-objetiva: qual o prazo da apelação no CPC?"
+
+---
+
+## especialista-escala-5x2
+
+📁 [`skills/especialista-escala-5x2`](../skills/especialista-escala-5x2/)
+
+**Faz:** cria, valida e otimiza escalas 5x2; calcula carga horária (44h, 40h, 36h), horas extras e banco de horas; distribui folgas fixas ou alternadas; verifica DSR e intervalos intra e interjornada.
+**Para quem:** RH, gestores de operação, departamento pessoal e advogados trabalhistas.
+**Formato:** Situação → Análise → Recomendação; Dados → Cálculo → Resultado; ou tabela da escala (Seg a Dom).
+**Exemplos de pedido:**
+- "Monte uma escala 5x2 para 10 funcionários de segunda a sábado."
+- "Qual a carga horária mensal de uma jornada de 44 horas semanais?"
 
 ---
 
