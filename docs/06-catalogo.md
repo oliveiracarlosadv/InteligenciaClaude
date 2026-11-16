@@ -16,6 +16,7 @@
 - [SSTSEMSTSegPrev_CAAO](#sstsemstsegprev_caao)
 - [resposta-objetiva](#resposta-objetiva)
 - [especialista-escala-5x2](#especialista-escala-5x2)
+- [gerador-de-skills-claude-juridicas](#gerador-de-skills-claude-juridicas)
 
 ---
 
@@ -178,6 +179,19 @@ Qual a capital do Brasil?
 **Exemplos de pedido:**
 - "Monte uma escala 5x2 para 10 funcionários de segunda a sábado."
 - "Qual a carga horária mensal de uma jornada de 44 horas semanais?"
+
+---
+
+## gerador-de-skills-claude-juridicas
+
+📁 [`skills/gerador-de-skills-claude-juridicas`](../skills/gerador-de-skills-claude-juridicas/)
+
+**Faz:** cria novas skills. A partir de uma descrição curta, entrega um `SKILL.md` completo (cabeçalho YAML, identidade, função, conhecimentos, objetivo, processo de análise, regras, padrão de resposta e exemplos), sempre com a assinatura *De advogado para advogado*.
+**Para quem:** quem quer montar skills próprias sem escrever do zero.
+**Como funciona:** primeiro pergunta que tipo de skill você quer (área, objetivo, público, forma de resposta e regras). Depois entrega só o conteúdo do arquivo, sem explicações. Salve como `SKILL.md` numa pasta com o nome da skill.
+**Exemplos de pedido:**
+- "Crie uma Skill para elaboração de contratos."
+- "Crie uma Skill especialista em marketing jurídico."
 
 ---
 

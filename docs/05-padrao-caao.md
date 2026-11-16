@@ -56,6 +56,8 @@ As skills CAAO trazem um parágrafo institucional sobre o autor, com OAB, redes 
 
 As skills `resposta-objetiva` e `especialista-escala-5x2` **não** usam cabeçalho nem rodapé CAAO: elas têm formato próprio de resposta, curto e direto.
 
+A `gerador-de-skills-claude-juridicas` também não usa: ela entrega apenas o arquivo `SKILL.md`, que termina com a assinatura *Criado por Dr. Carlos A. A. Oliveira (@oliveiracarlosadv) · Belém-PA, Brasil · De advogado para advogado.*
+
 ## Próximo passo
 
 [6. Catálogo →](06-catalogo.md)

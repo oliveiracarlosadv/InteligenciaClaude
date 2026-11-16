@@ -2,6 +2,12 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.2.0 — 16/11/2026
+
+### Adicionado
+- Skill `gerador-de-skills-claude-juridicas`: cria novas skills a partir de uma descrição, entregando o `SKILL.md` completo.
+- Atalho para essa skill no guia *Criar ou editar uma skill*.
+
 ## v1.1.0 — 14/11/2026
 
 ### Adicionado

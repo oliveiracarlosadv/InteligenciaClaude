@@ -36,6 +36,7 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 | [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/) | Segurança e Saúde no Trabalho, NRs e investigação de acidentes |
 | [resposta-objetiva](skills/resposta-objetiva/) | Respostas curtíssimas, sempre no formato `Pergunta: - "Resposta"` |
 | [especialista-escala-5x2](skills/especialista-escala-5x2/) | Montagem, validação e cálculo de escalas de trabalho 5x2 |
+| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: transforma uma descrição em um `SKILL.md` pronto |
 
 Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 

@@ -4,6 +4,8 @@
 
 ## Passo a passo
 
+> **Atalho:** a skill [`gerador-de-skills-claude-juridicas`](../skills/gerador-de-skills-claude-juridicas/) escreve o `SKILL.md` para você a partir de uma frase. Depois é só seguir os passos 2 a 7.
+
 1. Copie o [modelo de skill](../templates/SKILL-modelo.md).
 2. Crie uma pasta em `skills/` com o nome da skill em **letras minúsculas e hífens**, por exemplo `skills/direito-consumidor-caao/`.
 3. Salve o modelo dentro dela como `SKILL.md` e preencha.
