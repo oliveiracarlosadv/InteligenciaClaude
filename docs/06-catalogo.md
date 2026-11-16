@@ -2,20 +2,40 @@
 
 [← Voltar ao início](../README.md)
 
+**⚖️ Direito Previdenciário**
 - [AdvogadoPrevidenciarioCAAO](#advogadoprevidenciariocaao)
+
+**👷 Direito do Trabalho e Segurança do Trabalho**
 - [AdvogadoTrabalhistaCAAO](#advogadotrabalhistacaao)
+- [especialista-escala-5x2](#especialista-escala-5x2)
+- [SSTSEMSTSegPrev_CAAO](#sstsemstsegprev_caao)
+
+**💰 Direito Tributário**
 - [AdvogadoTributaristaCAAO](#advogadotributaristacaao)
-- [AssistenteJuridicoCompletoCAAO](#assistentejuridicocompletocaao)
-- [CAAO_DireitoServidorPublicoPA](#caao_direitoservidorpublicopa)
+
+**📜 Direito Civil e Processual Civil**
 - [CIVILISTA_CAAO](#civilista_caao)
-- [EscritaHumanaCAAO](#escritahumanacaao)
+
+**🏛️ Direito Administrativo e Servidor Público**
+- [CAAO_DireitoServidorPublicoPA](#caao_direitoservidorpublicopa)
+
+**🧰 Atuação jurídica geral**
+- [AssistenteJuridicoCompletoCAAO](#assistentejuridicocompletocaao)
+
+**🔎 Pesquisa de leis e jurisprudência**
 - [JurisprudenciaLeisBRCAAO](#jurisprudencialeisbrcaao)
 - [JurisprudenciaSearchPro_CAAO](#jurisprudenciasearchpro_caao)
-- [RevisaoTecnicaArtigosQuimicaEN](#revisaotecnicaartigosquimicaen)
+
+**📱 Marketing jurídico e redes sociais**
+- [Social Media para ADVs](#social-media-para-advs)
 - [SocialMediaAdvExpert_CAAO](#socialmediaadvexpert_caao)
-- [SSTSEMSTSegPrev_CAAO](#sstsemstsegprev_caao)
+
+**✍️ Escrita, revisão e respostas**
+- [EscritaHumanaCAAO](#escritahumanacaao)
+- [RevisaoTecnicaArtigosQuimicaEN](#revisaotecnicaartigosquimicaen)
 - [resposta-objetiva](#resposta-objetiva)
-- [especialista-escala-5x2](#especialista-escala-5x2)
+
+**🛠️ Criação de skills**
 - [gerador-de-skills-claude-juridicas](#gerador-de-skills-claude-juridicas)
 
 ---
@@ -192,6 +212,19 @@ Qual a capital do Brasil?
 **Exemplos de pedido:**
 - "Crie uma Skill para elaboração de contratos."
 - "Crie uma Skill especialista em marketing jurídico."
+
+---
+
+## Social Media para ADVs
+
+📁 [`skills/social-media-para-advs`](../skills/social-media-para-advs/)
+
+**Faz:** transforma um tema jurídico, notícia, mudança na lei, dúvida de cliente ou campanha em um post completo para Instagram: conceito criativo, headline, texto da arte, legenda, CTA ético, hashtags, direção de arte, especificações técnicas e prompt detalhado para IA de imagem. Também sugere carrossel e stories e monta calendário de conteúdo.
+**Regras:** Estatuto da Advocacia, Código de Ética da OAB e Provimento 205/2021. Sem promessa de resultado, captação ou linguagem comercial.
+**Visual:** azul-marinho, azul petróleo, preto, grafite, branco e dourado discreto; títulos em Playfair Display, Montserrat, Cinzel ou Poppins.
+**Exemplos de pedido:**
+- "Crie um post sobre o direito de arrependimento em compras on-line."
+- "Monte um carrossel de 6 lâminas sobre aposentadoria especial."
 
 ---
 

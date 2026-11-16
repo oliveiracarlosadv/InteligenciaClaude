@@ -18,25 +18,73 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 
 ---
 
-## Skills disponíveis
+## Skills por área
+
+### ⚖️ Direito Previdenciário
 
 | Skill | Para que serve |
 |---|---|
 | [AdvogadoPrevidenciarioCAAO](skills/advogadoprevidenciariocaao/) | Aposentadorias, benefícios do INSS, BPC/LOAS, revisões e planejamento previdenciário |
+
+### 👷 Direito do Trabalho e Segurança do Trabalho
+
+| Skill | Para que serve |
+|---|---|
 | [AdvogadoTrabalhistaCAAO](skills/advogadotrabalhistacaao/) | Consultas trabalhistas, petições, contestações, recursos e compliance |
+| [especialista-escala-5x2](skills/especialista-escala-5x2/) | Montagem, validação e cálculo de escalas de trabalho 5x2 |
+| [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/) | Segurança e Saúde no Trabalho, NRs e investigação de acidentes |
+
+### 💰 Direito Tributário
+
+| Skill | Para que serve |
+|---|---|
 | [AdvogadoTributaristaCAAO](skills/advogadotributaristacaao/) | Planejamento tributário, execução fiscal, autos de infração e créditos |
-| [AssistenteJuridicoCompletoCAAO](skills/assistentejuridicocompletocaao/) | Peças, cálculos, análise processual e revisão em qualquer área |
+
+### 📜 Direito Civil e Processual Civil
+
+| Skill | Para que serve |
+|---|---|
+| [CIVILISTA_CAAO](skills/civilista-caao/) | Contratos, responsabilidade civil, família, sucessões, execução e recursos |
+
+### 🏛️ Direito Administrativo e Servidor Público
+
+| Skill | Para que serve |
+|---|---|
 | [CAAO_DireitoServidorPublicoPA](skills/caao-direitoservidorpublicopa/) | Direitos de servidores de Belém e do Estado do Pará |
-| [CIVILISTA_CAAO](skills/civilista-caao/) | Direito Civil e Processual Civil: contratos, família, sucessões, execução |
-| [EscritaHumanaCAAO](skills/escritahumanacaao/) | Texto natural, gramática correta e formatação ABNT |
+
+### 🧰 Atuação jurídica geral
+
+| Skill | Para que serve |
+|---|---|
+| [AssistenteJuridicoCompletoCAAO](skills/assistentejuridicocompletocaao/) | Peças, cálculos, análise processual e revisão em qualquer área |
+
+### 🔎 Pesquisa de leis e jurisprudência
+
+| Skill | Para que serve |
+|---|---|
 | [JurisprudenciaLeisBRCAAO](skills/jurisprudencialeisbrcaao/) | Leis e jurisprudência só em fontes oficiais, com número e link |
 | [JurisprudenciaSearchPro_CAAO](skills/jurisprudenciasearchpro-caao/) | Busca de jurisprudência no TJPA, TRT8, TRF, STJ, STF e TST |
+
+### 📱 Marketing jurídico e redes sociais
+
+| Skill | Para que serve |
+|---|---|
+| [Social Media para ADVs](skills/social-media-para-advs/) | Post completo para Instagram: arte, legenda, CTA ético e prompt de imagem |
+| [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/) | Estratégia de perfil: crescimento, tráfego e campanhas, dentro da ética da OAB |
+
+### ✍️ Escrita, revisão e respostas
+
+| Skill | Para que serve |
+|---|---|
+| [EscritaHumanaCAAO](skills/escritahumanacaao/) | Texto natural, gramática correta e formatação ABNT |
 | [RevisaoTecnicaArtigosQuimicaEN](skills/revisaotecnicaartigosquimicaen/) | Revisão de artigos científicos de Química em português e inglês |
-| [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/) | Redes sociais para advogados, dentro da ética da OAB |
-| [SSTSEMSTSegPrev_CAAO](skills/sstsemstsegprev-caao/) | Segurança e Saúde no Trabalho, NRs e investigação de acidentes |
 | [resposta-objetiva](skills/resposta-objetiva/) | Respostas curtíssimas, sempre no formato `Pergunta: - "Resposta"` |
-| [especialista-escala-5x2](skills/especialista-escala-5x2/) | Montagem, validação e cálculo de escalas de trabalho 5x2 |
-| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: transforma uma descrição em um `SKILL.md` pronto |
+
+### 🛠️ Criação de skills
+
+| Skill | Para que serve |
+|---|---|
+| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: pergunta o que você quer e entrega um `SKILL.md` pronto |
 
 Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 

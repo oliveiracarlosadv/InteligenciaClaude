@@ -10,7 +10,7 @@
 2. Crie uma pasta em `skills/` com o nome da skill em **letras minúsculas e hífens**, por exemplo `skills/direito-consumidor-caao/`.
 3. Salve o modelo dentro dela como `SKILL.md` e preencha.
 4. Crie um `README.md` na mesma pasta explicando a skill para pessoas.
-5. Acrescente a skill na tabela do [README principal](../README.md) e no [Catálogo](06-catalogo.md).
+5. Acrescente a skill na **área certa** do [README principal](../README.md) (seção *Skills por área*; crie uma área nova se nenhuma servir), no [Catálogo](06-catalogo.md) e na [tabela de downloads](02-instalacao.md#baixar-somente-uma-skill).
 6. Registre a novidade no [CHANGELOG](../CHANGELOG.md).
 7. Teste instalando a skill (veja [Instalação](02-instalacao.md)) antes de divulgar.
 

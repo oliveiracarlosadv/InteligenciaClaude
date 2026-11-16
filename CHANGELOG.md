@@ -2,6 +2,15 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.3.0 — 16/11/2026
+
+### Adicionado
+- Skill `social-media-para-advs`: diretor de arte e social media jurídico; gera post completo para Instagram (arte, legenda, CTA ético, hashtags, direção de arte e prompt para IA de imagem) dentro do Provimento 205/2021.
+
+### Alterado
+- README: skills organizadas **por área** (Previdenciário, Trabalho e SST, Tributário, Civil, Administrativo, geral, pesquisa, marketing, escrita e criação de skills).
+- Catálogo com índice por área.
+
 ## v1.2.0 — 16/11/2026
 
 ### Adicionado
