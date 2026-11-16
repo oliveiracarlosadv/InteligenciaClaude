@@ -40,15 +40,6 @@ Exemplos de pedido:
 
 Quanto mais contexto (área de atuação, cidade, tom, identidade visual do escritório), melhor o resultado.
 
-## Diferença para a SocialMediaAdvExpert_CAAO
-
-| Skill | Foco |
-|---|---|
-| SocialMediaAdvExpert_CAAO | Estratégia de perfil: crescimento, tráfego e campanhas |
-| Social Media para ADVs | Produção de cada peça: arte, texto, legenda e prompt de imagem |
-
-As duas se complementam.
-
 ---
 
 Criado por Dr. Carlos A. A. Oliveira (@oliveiracarlosadv)

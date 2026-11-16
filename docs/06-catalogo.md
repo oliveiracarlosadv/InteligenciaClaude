@@ -28,7 +28,6 @@
 
 **📱 Marketing jurídico e redes sociais**
 - [Social Media para ADVs](#social-media-para-advs)
-- [SocialMediaAdvExpert_CAAO](#socialmediaadvexpert_caao)
 
 **✍️ Escrita, revisão e respostas**
 - [EscritaHumanaCAAO](#escritahumanacaao)
@@ -149,17 +148,6 @@
 
 **Faz:** revisa artigos científicos de Química e áreas afins, em português e inglês: sintaxe, concordância, estilo acadêmico e terminologia. Entrega um relatório comparativo com erros, correções e justificativas.
 **Pergunta antes:** texto, idioma, área da Química, tipo de documento e tipo de revisão.
-
----
-
-## SocialMediaAdvExpert_CAAO
-
-📁 [`skills/socialmediaadvexpert-caao`](../skills/socialmediaadvexpert-caao/)
-
-**Faz:** crescimento de seguidores, diagnóstico de perfil, campanhas de captação, legendas, roteiros de vídeo e carrosséis, sempre dentro da ética da OAB.
-**Exemplos de pedido:**
-- "Analise meu perfil do Instagram de advogado previdenciarista."
-- "Crie um calendário de 30 posts sobre direito do consumidor."
 
 ---
 

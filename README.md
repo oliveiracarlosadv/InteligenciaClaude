@@ -70,7 +70,6 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 | Skill | Para que serve |
 |---|---|
 | [Social Media para ADVs](skills/social-media-para-advs/) | Post completo para Instagram: arte, legenda, CTA ético e prompt de imagem |
-| [SocialMediaAdvExpert_CAAO](skills/socialmediaadvexpert-caao/) | Estratégia de perfil: crescimento, tráfego e campanhas, dentro da ética da OAB |
 
 ### ✍️ Escrita, revisão e respostas
 

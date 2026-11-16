@@ -2,6 +2,11 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.4.0 — 16/11/2026
+
+### Removido
+- Skill `SocialMediaAdvExpert_CAAO` (a produção de conteúdo para redes sociais fica com a `social-media-para-advs`).
+
 ## v1.3.0 — 16/11/2026
 
 ### Adicionado

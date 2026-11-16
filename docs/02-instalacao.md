@@ -28,7 +28,6 @@ Cada skill tem um **`.zip` pronto**, no formato que o Claude aceita. Clique no l
 | JurisprudenciaLeisBRCAAO | [jurisprudencialeisbrcaao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/jurisprudencialeisbrcaao.zip) |
 | JurisprudenciaSearchPro_CAAO | [jurisprudenciasearchpro-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/jurisprudenciasearchpro-caao.zip) |
 | RevisaoTecnicaArtigosQuimicaEN | [revisaotecnicaartigosquimicaen.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/revisaotecnicaartigosquimicaen.zip) |
-| SocialMediaAdvExpert_CAAO | [socialmediaadvexpert-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/socialmediaadvexpert-caao.zip) |
 | SSTSEMSTSegPrev_CAAO | [sstsemstsegprev-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/sstsemstsegprev-caao.zip) |
 | resposta-objetiva | [resposta-objetiva.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/resposta-objetiva.zip) |
 | especialista-escala-5x2 | [especialista-escala-5x2.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/especialista-escala-5x2.zip) |
