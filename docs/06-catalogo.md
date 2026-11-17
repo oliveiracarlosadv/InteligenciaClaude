@@ -16,6 +16,9 @@
 **📜 Direito Civil e Processual Civil**
 - [CIVILISTA_CAAO](#civilista_caao)
 
+**🔒 Direito Penal e Processual Penal**
+- [Especialista em Direito Criminal](#especialista-em-direito-criminal)
+
 **🏛️ Direito Administrativo e Servidor Público**
 - [CAAO_DireitoServidorPublicoPA](#caao_direitoservidorpublicopa)
 
@@ -212,6 +215,19 @@ Qual a capital do Brasil?
 **Exemplos de pedido:**
 - "Crie um post sobre o direito de arrependimento em compras on-line."
 - "Monte um carrossel de 6 lâminas sobre aposentadoria especial."
+
+---
+
+## Especialista em Direito Criminal
+
+📁 [`skills/especialista-em-direito-criminal`](../skills/especialista-em-direito-criminal/)
+
+**Faz:** elabora as peças da advocacia criminal em todas as fases (investigação, prisão e cautelares, ação penal, Júri, recursos, ações autônomas e execução penal) e analisa casos: nulidades, prescrição, teses principais e subsidiárias, riscos e prazos. Também calcula dosimetria, prescrição, progressão, livramento e remição.
+**Base:** Constituição, Código Penal, CPP (com o Pacote Anticrime), LEP, legislação penal especial, criminologia e jurisprudência do STF e do STJ.
+**Cuidados:** não inventa julgados; indica o prazo de cada peça e pede para conferir; destaca urgência quando há réu preso.
+**Exemplos de pedido:**
+- "Faça um habeas corpus contra preventiva sem fundamentação concreta, furto simples, réu primário."
+- "Calcule a prescrição retroativa: pena de 2 anos, denúncia recebida em 03/2020, sentença em 08/2024."
 
 ---
 

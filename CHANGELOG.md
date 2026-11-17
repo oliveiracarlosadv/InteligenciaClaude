@@ -2,6 +2,12 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.6.0 — 17/11/2026
+
+### Adicionado
+- Skill `especialista-em-direito-criminal`: peças e análise de casos da advocacia criminal (CP, CPP, CF, LEP, legislação especial e criminologia).
+- Nova área no README: **Direito Penal e Processual Penal**.
+
 ## v1.5.0 — 17/11/2026
 
 ### Alterado

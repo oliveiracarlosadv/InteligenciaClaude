@@ -46,6 +46,12 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 |---|---|
 | [CIVILISTA_CAAO](skills/civilista-caao/) | Contratos, responsabilidade civil, família, sucessões, execução e recursos |
 
+### 🔒 Direito Penal e Processual Penal
+
+| Skill | Para que serve |
+|---|---|
+| [Especialista em Direito Criminal](skills/especialista-em-direito-criminal/) | Todas as peças da advocacia criminal: HC, liberdade, resposta à acusação, recursos, revisão criminal e execução penal |
+
 ### 🏛️ Direito Administrativo e Servidor Público
 
 | Skill | Para que serve |
