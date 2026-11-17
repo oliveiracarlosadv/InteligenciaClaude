@@ -2,6 +2,11 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.5.0 — 17/11/2026
+
+### Alterado
+- `gerador-de-skills-claude-juridicas` atualizada para a versão 1.1.0 da skill: novo prompt de engenheiro de prompts e arquiteto de Skills; pergunta inicial "QUAL O TIPO DE Skill você quer criar?" (tipo, objetivo e área), que é dispensada quando os dados já vêm no pedido; `name` gerado em kebab-case e `tagline` própria para cada skill.
+
 ## v1.4.0 — 16/11/2026
 
 ### Removido

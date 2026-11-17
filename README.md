@@ -83,7 +83,7 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 
 | Skill | Para que serve |
 |---|---|
-| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: pergunta o que você quer e entrega um `SKILL.md` pronto |
+| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: pergunta tipo, objetivo e área e entrega um `SKILL.md` pronto em 11 partes |
 
 Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 

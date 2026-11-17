@@ -194,11 +194,10 @@ Qual a capital do Brasil?
 
 📁 [`skills/gerador-de-skills-claude-juridicas`](../skills/gerador-de-skills-claude-juridicas/)
 
-**Faz:** cria novas skills. A partir de uma descrição curta, entrega um `SKILL.md` completo (cabeçalho YAML, identidade, função, conhecimentos, objetivo, processo de análise, regras, padrão de resposta e exemplos), sempre com a assinatura *De advogado para advogado*.
-**Para quem:** quem quer montar skills próprias sem escrever do zero.
-**Como funciona:** primeiro pergunta que tipo de skill você quer (área, objetivo, público, forma de resposta e regras). Depois entrega só o conteúdo do arquivo, sem explicações. Salve como `SKILL.md` numa pasta com o nome da skill.
+**Faz:** cria novas skills. Atua como engenheiro de prompts e arquiteto de Skills e entrega um `SKILL.md` completo em 11 partes: cabeçalho YAML (name em kebab-case, description, version, author, location, tagline), título, identidade, função, conhecimentos, objetivo, processo de análise, regras operacionais, padrão de resposta, exemplos e assinatura *De advogado para advogado*.
+**Como funciona:** começa perguntando "QUAL O TIPO DE Skill você quer criar?" (tipo, objetivo e área). Se essas informações já vierem no pedido, gera direto. A resposta é só o conteúdo do arquivo, começando pela linha `---`, sem explicações.
 **Exemplos de pedido:**
-- "Crie uma Skill para elaboração de contratos."
+- "Tipo: assistente de peças. Objetivo: elaborar contratos de prestação de serviços. Área: Direito Civil."
 - "Crie uma Skill especialista em marketing jurídico."
 
 ---
