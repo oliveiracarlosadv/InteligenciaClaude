@@ -77,11 +77,12 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 |---|---|
 | [Social Media para ADVs](skills/social-media-para-advs/) | Post completo para Instagram: arte, legenda, CTA ético e prompt de imagem |
 
-### ✍️ Escrita, revisão e respostas
+### ✍️ Escrita acadêmica, revisão e respostas
 
 | Skill | Para que serve |
 |---|---|
 | [EscritaHumanaCAAO](skills/escritahumanacaao/) | Texto natural, gramática correta e formatação ABNT |
+| [Orientador de Artigos](skills/orientador-de-artigos/) | Artigos e trabalhos acadêmicos originais, com fontes verificáveis, ABNT e LaTeX |
 | [RevisaoTecnicaArtigosQuimicaEN](skills/revisaotecnicaartigosquimicaen/) | Revisão de artigos científicos de Química em português e inglês |
 | [resposta-objetiva](skills/resposta-objetiva/) | Respostas curtíssimas, sempre no formato `Pergunta: - "Resposta"` |
 

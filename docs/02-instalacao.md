@@ -34,6 +34,7 @@ Cada skill tem um **`.zip` pronto**, no formato que o Claude aceita. Clique no l
 | gerador-de-skills-claude-juridicas | [gerador-de-skills-claude-juridicas.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/gerador-de-skills-claude-juridicas.zip) |
 | Social Media para ADVs | [social-media-para-advs.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/social-media-para-advs.zip) |
 | Especialista em Direito Criminal | [especialista-em-direito-criminal.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/especialista-em-direito-criminal.zip) |
+| Orientador de Artigos | [orientador-de-artigos.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/orientador-de-artigos.zip) |
 | **Todas as skills** | [todas-as-skills.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/todas-as-skills.zip) |
 
 Os links apontam sempre para a **versão mais recente**. Todas as versões ficam em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).

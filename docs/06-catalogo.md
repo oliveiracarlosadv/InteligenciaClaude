@@ -32,8 +32,9 @@
 **📱 Marketing jurídico e redes sociais**
 - [Social Media para ADVs](#social-media-para-advs)
 
-**✍️ Escrita, revisão e respostas**
+**✍️ Escrita acadêmica, revisão e respostas**
 - [EscritaHumanaCAAO](#escritahumanacaao)
+- [Orientador de Artigos](#orientador-de-artigos)
 - [RevisaoTecnicaArtigosQuimicaEN](#revisaotecnicaartigosquimicaen)
 - [resposta-objetiva](#resposta-objetiva)
 
@@ -228,6 +229,20 @@ Qual a capital do Brasil?
 **Exemplos de pedido:**
 - "Faça um habeas corpus contra preventiva sem fundamentação concreta, furto simples, réu primário."
 - "Calcule a prescrição retroativa: pena de 2 anos, denúncia recebida em 03/2020, sentença em 08/2024."
+
+---
+
+## Orientador de Artigos
+
+📁 [`skills/orientador-de-artigos`](../skills/orientador-de-artigos/)
+
+**Faz:** planeja, escreve, revisa e formata artigos científicos, TCCs, monografias, dissertações, projetos de pesquisa, resumos e artigos jurídicos. Entrega também em LaTeX (abnTeX2 + `.bib`).
+**Integridade:** texto original com paráfrase real; toda ideia de terceiros citada; nunca inventa fontes; o que não puder ser confirmado sai marcado como **[VERIFICAR]**; relatório de fontes ao final.
+**Normas:** ABNT NBR 6022, 6023, 10520, 14724, 15287, 6028 e 6024, ou o modelo da revista ou instituição.
+**Exemplos de pedido:**
+- "Planeje um artigo de 15 páginas sobre inteligência artificial no Judiciário para uma revista jurídica."
+- "Converta este artigo para LaTeX com ABNT, sistema autor-data."
+- "Formate estas referências na NBR 6023."
 
 ---
 

@@ -2,6 +2,14 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.7.0 — 19/11/2026
+
+### Adicionado
+- Skill `orientador-de-artigos`: textos acadêmicos originais, com fontes verificáveis, normas da ABNT e LaTeX (abnTeX2).
+
+### Alterado
+- Área do README renomeada para **Escrita acadêmica, revisão e respostas**.
+
 ## v1.6.0 — 17/11/2026
 
 ### Adicionado
