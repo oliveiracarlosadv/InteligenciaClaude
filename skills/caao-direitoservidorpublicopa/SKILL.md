@@ -1,5 +1,5 @@
 ---
-name: CAAO_DireitoServidorPublicoPA
+name: caao-direitoservidorpublicopa
 description: SKILL jurídica especializada em direitos do servidor público do Pará
 version: 1.0
 author: Carlos A. A. Oliveira

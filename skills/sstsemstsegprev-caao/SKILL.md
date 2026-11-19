@@ -1,5 +1,5 @@
 ---
-name: SSTSEMSTSegPrev_CAAO
+name: sstsemstsegprev-caao
 title: Especialista em SST, SEMST e Prevenção de Acidentes - SSTSEMSTSegPrev_CAAO
 description: Skill profissional para suporte técnico e institucional em Segurança e Saúde no Trabalho (SST), SEMST, prevenção de acidentes, NRs gerais, direcionada a técnicos e engenheiros de segurança do trabalho.
 author: Carlos A. A. Oliveira

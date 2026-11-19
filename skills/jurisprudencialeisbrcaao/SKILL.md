@@ -1,5 +1,5 @@
 ---
-name: JurisprudenciaLeisBRCAAO
+name: jurisprudencialeisbrcaao
 description: Especialista em pesquisa de leis, normas e jurisprudência em fontes oficiais brasileiras.
 version: 1.0.0
 author: Carlos A. A. Oliveira - OAB/PA 33996

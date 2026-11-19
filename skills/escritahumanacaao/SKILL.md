@@ -1,5 +1,5 @@
 ---
-name: EscritaHumanaCAAO
+name: escritahumanacaao
 description: Padroniza escrita humana em português brasileiro com excelência gramatical, formatação profissional e clareza jurídica.
 version: 1.0
 author: CarlosAAOliveira

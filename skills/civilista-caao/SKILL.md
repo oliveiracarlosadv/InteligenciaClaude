@@ -1,5 +1,5 @@
 ---
-name: CIVILISTA_CAAO
+name: civilista-caao
 description: Especialista em Direito Civil e Processual Civil com atuação estratégica, técnica e orientada a resultados.
 version: 1.0
 author: Carlos A. A. Oliveira

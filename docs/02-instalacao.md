@@ -31,13 +31,18 @@ Cada skill tem um **`.zip` pronto**, no formato que o Claude aceita. Clique no l
 | SSTSEMSTSegPrev_CAAO | [sstsemstsegprev-caao.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/sstsemstsegprev-caao.zip) |
 | resposta-objetiva | [resposta-objetiva.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/resposta-objetiva.zip) |
 | especialista-escala-5x2 | [especialista-escala-5x2.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/especialista-escala-5x2.zip) |
-| gerador-de-skills-claude-juridicas | [gerador-de-skills-claude-juridicas.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/gerador-de-skills-claude-juridicas.zip) |
+| gerador-de-skills-juridicas | [gerador-de-skills-juridicas.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/gerador-de-skills-juridicas.zip) |
 | Social Media para ADVs | [social-media-para-advs.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/social-media-para-advs.zip) |
 | Especialista em Direito Criminal | [especialista-em-direito-criminal.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/especialista-em-direito-criminal.zip) |
 | Orientador de Artigos | [orientador-de-artigos.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/orientador-de-artigos.zip) |
 | **Todas as skills** | [todas-as-skills.zip](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest/download/todas-as-skills.zip) |
 
 Os links apontam sempre para a **versão mais recente**. Todas as versões ficam em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
+
+**Como são os arquivos:**
+
+- `<skill>.zip`: contém **só o `SKILL.md`**, na raiz do `.zip` (sem pasta e sem README).
+- `todas-as-skills.zip`: contém todos os `<skill>.zip` **lado a lado, sem subpastas**. Descompacte-o uma vez e envie os `.zip` de dentro, um por vez.
 
 **Não descompacte** se for usar no Claude normal ou no Desktop: envie o `.zip` do jeito que baixou (veja as seções A e B).
 
@@ -48,7 +53,7 @@ Os links apontam sempre para a **versão mais recente**. Todas as versões ficam
 1. Abra a pasta da skill em [`skills/`](../skills/).
 2. Clique em `SKILL.md`.
 3. No canto superior direito do arquivo, clique no botão **Download raw file** (ícone de seta para baixo).
-4. No seu computador, crie uma pasta com o nome da skill (ex.: `civilista-caao`) e coloque o `SKILL.md` dentro.
+4. Envie esse `SKILL.md` direto em **Personalizar → Skills** (o Claude também aceita o arquivo solto), ou coloque-o numa pasta com o nome da skill para usar no Claude Code.
 
 **Pelo Terminal (Claude Code):** veja [C. Instalar só uma](#instalar-só-uma).
 
@@ -80,13 +85,13 @@ As skills funcionam em todos os planos: Free, Pro, Max, Team e Enterprise.
 7. Selecione o `.zip` baixado e confirme.
 8. A skill aparece na lista. Confira se a chave ao lado dela está **ligada**.
 
-Repita do passo 5 ao 8 para cada skill. **Envie uma skill por vez**: o `todas-as-skills.zip` não serve para este envio.
+Repita do passo 5 ao 8 para cada skill. **Envie uma skill por vez**: o `todas-as-skills.zip` não serve para este envio. Descompacte-o antes e envie os `.zip` que estão dentro dele.
 
 ### Testar
 
 Abra uma conversa nova e escreva, por exemplo:
 
-> Use a skill CIVILISTA_CAAO: quais os requisitos da usucapião extraordinária?
+> Use a skill civilista-caao: quais os requisitos da usucapião extraordinária?
 
 Se a skill for usada, a resposta segue o padrão dela, com cabeçalho e rodapé `@oliveiracarlosadv` quando gerar um documento.
 
@@ -113,17 +118,17 @@ Para instalar pelo próprio app:
 
 ### Se você mesmo for montar o `.zip`
 
-O `.zip` deve ter a pasta da skill dentro, com o `SKILL.md`:
+O jeito mais seguro é o `.zip` ter **só o `SKILL.md` na raiz**:
 
 ```
 civilista-caao.zip
-└── civilista-caao/
-    ├── SKILL.md
-    └── README.md
+└── SKILL.md
 ```
 
-**Mac:** botão direito na pasta → **Comprimir**.
-**Windows:** botão direito na pasta → **Enviar para** → **Pasta compactada**.
+**Mac:** botão direito no arquivo `SKILL.md` → **Comprimir**, e renomeie o `.zip`.
+**Windows:** botão direito no `SKILL.md` → **Enviar para** → **Pasta compactada**.
+
+O campo `name` do `SKILL.md` precisa ter só letras minúsculas, números e hífens, e **não pode conter as palavras "claude" nem "anthropic"**. Se tiver, o Claude recusa com o erro *"Skill name in SKILL.md cannot contain the reserved word 'claude'"*.
 
 > Os nomes dos menus podem variar um pouco conforme o idioma e a versão do Claude. Em inglês, o caminho é **Customize → Skills → + → Create skill → Upload a skill**.
 
@@ -138,6 +143,42 @@ O Claude Code procura skills em duas pastas:
 | `~/.claude/skills/` | Todos os projetos do seu computador |
 | `.claude/skills/` dentro de um projeto | Só aquele projeto |
 
+### Instalação automática (recomendada)
+
+Baixa e instala todas as skills direto do GitHub. **Skills já instaladas são puladas**: o instalador confere se já existe a pasta com o mesmo nome ou um `SKILL.md` com o mesmo `name:` em `~/.claude/skills/`.
+
+**Mac ou Linux:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.sh | bash
+```
+
+**Windows (PowerShell):**
+
+```powershell
+irm https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.ps1 | iex
+```
+
+**Pelo próprio Claude Code:** cole na conversa:
+
+```text
+Instale as skills do repositório https://github.com/oliveiracarlosadv/InteligenciaClaude rodando: curl -fsSL https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.sh | bash
+```
+
+Para instalar só em um projeto, defina a pasta antes:
+
+```bash
+CLAUDE_SKILLS_DIR=.claude/skills bash -c "$(curl -fsSL https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.sh)"
+```
+
+Exemplo de resultado:
+
+```
+  ✓ orientador-de-artigos — instalada
+  • resposta-objetiva — já instalada, pulando
+Pronto. Instaladas: 16 · Já existiam: 1
+```
+
 ### Instalar só uma
 
 Troque `civilista-caao` pelo nome da pasta da skill desejada:
@@ -149,17 +190,7 @@ mkdir -p ~/.claude/skills/civilista-caao && curl -fsSL -o ~/.claude/skills/civil
 Ou, com o `.zip` baixado:
 
 ```bash
-unzip civilista-caao.zip -d ~/.claude/skills/
-```
-
-### Instalar todas
-
-```bash
-git clone https://github.com/oliveiracarlosadv/InteligenciaClaude.git
-```
-
-```bash
-mkdir -p ~/.claude/skills && cp -R InteligenciaClaude/skills/* ~/.claude/skills/
+unzip civilista-caao.zip -d ~/.claude/skills/civilista-caao/
 ```
 
 ### Conferir

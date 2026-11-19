@@ -1,5 +1,5 @@
 ---
-name: AdvogadoPrevidenciarioCAAO
+name: advogadoprevidenciariocaao
 description: SKILL especializada em Direito Previdenciário com atuação técnica, estratégica e linguagem acessível para elaboração de peças, consultas e orientações jurídicas completas.
 ---
 

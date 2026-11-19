@@ -1,5 +1,5 @@
 ---
-name: AssistenteJuridicoCompletoCAAO
+name: assistentejuridicocompletocaao
 description: Assistente jurídico completo para cálculos, elaboração de peças e suporte jurídico estratégico no direito brasileiro
 version: 1.0
 author: Carlos A. A. Oliveira

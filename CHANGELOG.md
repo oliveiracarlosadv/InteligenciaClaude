@@ -2,6 +2,19 @@
 
 Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão em [Releases](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases).
 
+## v1.8.0 — 19/11/2026
+
+### Corrigido
+- Erro de envio *"Skill name in SKILL.md cannot contain the reserved word 'claude'"*: a skill `gerador-de-skills-claude-juridicas` passou a se chamar **`gerador-de-skills-juridicas`** (versão 1.2.0 da skill, que agora também proíbe "claude" e "anthropic" nos nomes que gera).
+- O campo `name` de todas as skills agora é igual ao nome da pasta, só com minúsculas, números e hífens (as skills CAAO tinham maiúsculas e sublinhados).
+
+### Alterado
+- Cada `<skill>.zip` contém só o `SKILL.md`, na raiz, sem pasta e sem README.
+- `todas-as-skills.zip` contém os `.zip` de cada skill lado a lado, sem subpastas.
+
+### Adicionado
+- Instalação automática no Claude Code: `instalar.sh` (Mac/Linux) e `instalar.ps1` (Windows). Pula as skills que já estão instaladas.
+
 ## v1.7.0 — 19/11/2026
 
 ### Adicionado
@@ -19,7 +32,7 @@ Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão e
 ## v1.5.0 — 17/11/2026
 
 ### Alterado
-- `gerador-de-skills-claude-juridicas` atualizada para a versão 1.1.0 da skill: novo prompt de engenheiro de prompts e arquiteto de Skills; pergunta inicial "QUAL O TIPO DE Skill você quer criar?" (tipo, objetivo e área), que é dispensada quando os dados já vêm no pedido; `name` gerado em kebab-case e `tagline` própria para cada skill.
+- `gerador-de-skills-juridicas` atualizada para a versão 1.1.0 da skill: novo prompt de engenheiro de prompts e arquiteto de Skills; pergunta inicial "QUAL O TIPO DE Skill você quer criar?" (tipo, objetivo e área), que é dispensada quando os dados já vêm no pedido; `name` gerado em kebab-case e `tagline` própria para cada skill.
 
 ## v1.4.0 — 16/11/2026
 
@@ -38,7 +51,7 @@ Formato: a versão mais recente fica no topo. Os `.zip` de cada versão estão e
 ## v1.2.0 — 16/11/2026
 
 ### Adicionado
-- Skill `gerador-de-skills-claude-juridicas`: cria novas skills a partir de uma descrição, entregando o `SKILL.md` completo.
+- Skill `gerador-de-skills-juridicas`: cria novas skills a partir de uma descrição, entregando o `SKILL.md` completo.
 - Atalho para essa skill no guia *Criar ou editar uma skill*.
 
 ## v1.1.0 — 14/11/2026

@@ -1,5 +1,5 @@
 ---
-name: "RevisaoTecnicaArtigosQuimicaEN"
+name: revisaotecnicaartigosquimicaen
 version: "1.0.0"
 author: "Carlos A. A. Oliveira"
 description: "SKILL profissional para revisão técnica de artigos científicos em Química e áreas congêneres, em português e inglês, com relatório comparativo detalhado."

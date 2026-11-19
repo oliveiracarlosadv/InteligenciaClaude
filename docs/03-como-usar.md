@@ -14,7 +14,7 @@ Aqui o Claude reconhece o tema e usa a **AdvogadoPrevidenciarioCAAO**.
 
 Para ter certeza de qual skill será usada, cite o nome dela:
 
-> Use a skill CIVILISTA_CAAO e elabore uma contestação em ação de cobrança.
+> Use a skill civilista-caao e elabore uma contestação em ação de cobrança.
 
 No Claude Code, você também pode digitar `/` seguido do nome da skill.
 

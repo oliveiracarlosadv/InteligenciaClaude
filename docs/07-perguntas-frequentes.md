@@ -23,11 +23,19 @@ Sim. O Claude só abre a skill que combina com o seu pedido, então ter várias 
 1. Confira se a **execução de código** está ligada em Configurações → Capacidades.
 2. Confira se a chave da skill está **ligada** em Personalizar → Skills (Claude normal e Desktop) ou se a skill está na pasta `~/.claude/skills/` (Claude Code).
 3. No Claude Code, abra uma **sessão nova**.
-4. Chame pelo nome: "Use a skill CIVILISTA_CAAO para ...".
+4. Chame pelo nome: "Use a skill civilista-caao para ...".
+
+### Erro "Skill name in SKILL.md cannot contain the reserved word 'claude'"
+
+O campo `name` da skill não pode conter "claude" nem "anthropic", e deve ter só letras minúsculas, números e hífens. Isso foi corrigido na v1.8.0: baixe de novo o `.zip` no topo do README. O gerador de skills passou a se chamar `gerador-de-skills-juridicas`.
+
+### Erro "O arquivo deve conter um manifesto .claude-plugin/plugin.json, ou um SKILL.md de nível superior"
+
+O arquivo enviado não tem um `SKILL.md` na raiz, por exemplo o `todas-as-skills.zip`, que é um pacote de pacotes. Descompacte-o e envie os `.zip` de dentro, **um por vez**, em **Personalizar → Skills**.
 
 ### Deu erro ao enviar o `.zip`
 
-- O `.zip` deve conter **a pasta da skill**, e o `SKILL.md` precisa estar dentro dela.
+- O `.zip` deve conter o `SKILL.md` na raiz (é assim que vêm os `.zip` deste repositório).
 - Envie **uma skill por `.zip`**.
 - O cabeçalho do `SKILL.md` precisa ter `name` e `description` entre as linhas `---`.
 

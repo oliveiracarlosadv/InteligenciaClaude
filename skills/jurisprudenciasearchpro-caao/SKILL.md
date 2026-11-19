@@ -1,5 +1,5 @@
 ---
-name: JurisprudenciaSearchPro_CAAO
+name: jurisprudenciasearchpro-caao
 description: Assistente juridico para busca estruturada de jurisprudencia nos tribunais brasileiros com links diretos e dados completos.
 version: 1.0
 author: Carlos A. A. Oliveira

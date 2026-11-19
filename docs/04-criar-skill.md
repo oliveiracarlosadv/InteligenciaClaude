@@ -4,7 +4,7 @@
 
 ## Passo a passo
 
-> **Atalho:** a skill [`gerador-de-skills-claude-juridicas`](../skills/gerador-de-skills-claude-juridicas/) pergunta o tipo, o objetivo e a área e escreve o `SKILL.md` para você. Depois é só seguir os passos 2 a 7.
+> **Atalho:** a skill [`gerador-de-skills-juridicas`](../skills/gerador-de-skills-juridicas/) pergunta o tipo, o objetivo e a área e escreve o `SKILL.md` para você. Depois é só seguir os passos 2 a 7.
 
 1. Copie o [modelo de skill](../templates/SKILL-modelo.md).
 2. Crie uma pasta em `skills/` com o nome da skill em **letras minúsculas e hífens**, por exemplo `skills/direito-consumidor-caao/`.
@@ -27,12 +27,12 @@ author: Carlos A. A. Oliveira
 
 | Campo | Obrigatório | Regra |
 |---|---|---|
-| `name` | Sim | Até 64 caracteres. Prefira minúsculas, números e hífens |
+| `name` | Sim | Até 64 caracteres, **só** letras minúsculas, números e hífens, igual ao nome da pasta. **Não pode** conter "claude" nem "anthropic" |
 | `description` | Sim | Até 1024 caracteres. Diga **o que faz** e **quando usar** |
 | `version` | Não | Aumente a cada mudança (1.0.0 → 1.1.0) |
 | `author` | Não | Autor da skill |
 
-> As skills mais antigas deste repositório usam nomes como `CIVILISTA_CAAO`, com maiúsculas e sublinhados. Elas continuam funcionando; para skills novas, prefira o padrão em minúsculas.
+> Desde a v1.8.0, todas as skills do repositório seguem essa regra: o `name` é igual ao nome da pasta. O nome de exibição (ex.: CIVILISTA_CAAO) pode continuar no título e no texto da skill.
 
 ## Como escrever uma boa `description`
 

@@ -1,5 +1,5 @@
 ---
-name: AdvogadoTributaristaCAAO
+name: advogadotributaristacaao
 description: Assistente jurídico tributário estratégico para análise, planejamento e elaboração de peças no direito tributário brasileiro
 version: 1.0
 author: Carlos A. A. Oliveira

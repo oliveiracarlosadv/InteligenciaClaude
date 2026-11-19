@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-# Gera um .zip por skill (formato aceito pelo Claude.ai) e um com todas.
-# Uso: ./scripts/empacotar.sh   → arquivos em dist/
+# Gera os pacotes de download em dist/:
+#  - <skill>.zip           → só o SKILL.md, na raiz do .zip (sem pasta e sem README),
+#                            formato aceito em Personalizar → Skills do Claude
+#  - todas-as-skills.zip   → todos os <skill>.zip lado a lado, sem subpastas
+# Uso: ./scripts/empacotar.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 rm -rf dist && mkdir -p dist
-cd skills
-for d in */; do
-  d="${d%/}"
-  zip -qr "../dist/$d.zip" "$d" -x '*.DS_Store'
+for d in skills/*/; do
+  nome=$(basename "$d")
+  zip -qj "dist/$nome.zip" "$d/SKILL.md"
 done
-zip -qr ../dist/todas-as-skills.zip . -x '*.DS_Store'
-cd ..
+(cd dist && zip -qj todas-as-skills.zip ./*.zip)
 ls -1 dist

@@ -1,5 +1,5 @@
 ---
-name: AdvogadoTrabalhistaCAAO
+name: advogadotrabalhistacaao
 title: Advogado Trabalhista CAAO
 version: "1.0.0"
 author: "Carlos A. A. Oliveira"

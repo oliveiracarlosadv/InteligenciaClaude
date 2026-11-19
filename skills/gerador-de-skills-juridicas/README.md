@@ -1,4 +1,4 @@
-# gerador-de-skills-claude-juridicas
+# gerador-de-skills-juridicas
 
 Skill que **cria outras skills**. O Claude atua como engenheiro de prompts e arquiteto de Skills: pergunta o que você quer e devolve um arquivo `SKILL.md` completo, pronto para salvar e instalar.
 

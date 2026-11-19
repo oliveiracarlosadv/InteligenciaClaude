@@ -14,7 +14,35 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 >
 > **[Ver a última versão (Release) e baixar uma skill só →](https://github.com/oliveiracarlosadv/InteligenciaClaude/releases/latest)**
 >
-> Estes links apontam sempre para o lançamento mais recente. Para o Claude normal ou o Claude Desktop, envie **um `.zip` por skill**: a lista com o link de cada uma está na [tabela de downloads](docs/02-instalacao.md#baixar-somente-uma-skill).
+> O pacote traz **um `.zip` por skill, lado a lado, sem subpastas**. Cada `.zip` contém só o `SKILL.md`, pronto para enviar ao Claude normal ou ao Claude Desktop em **Personalizar → Skills** (um por vez). Os links apontam sempre para o lançamento mais recente. Link de cada skill na [tabela de downloads](docs/02-instalacao.md#baixar-somente-uma-skill).
+
+---
+
+## ⚡ Instalação automática no Claude Code
+
+Instala todas as skills **sem baixar nada manualmente**. Se uma skill **já estiver instalada, ela é pulada**.
+
+**Mac ou Linux** (Terminal):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.sh | bash
+```
+
+**Windows** (PowerShell):
+
+```powershell
+irm https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.ps1 | iex
+```
+
+**Ou peça ao próprio Claude Code** (cole na conversa):
+
+```text
+Instale as skills do repositório https://github.com/oliveiracarlosadv/InteligenciaClaude rodando: curl -fsSL https://raw.githubusercontent.com/oliveiracarlosadv/InteligenciaClaude/main/instalar.sh | bash
+```
+
+As skills vão para `~/.claude/skills/`. Depois, abra uma nova sessão e digite `/skills` para conferir.
+
+> No Claude normal (navegador) e no Claude Desktop, a instalação é pelo menu **Personalizar → Skills** com os `.zip` acima: esses apps não instalam skills por comando.
 
 ---
 
@@ -90,7 +118,7 @@ Todas as skills deste repositório estão em **Markdown puro** (`.md`), fáceis 
 
 | Skill | Para que serve |
 |---|---|
-| [gerador-de-skills-claude-juridicas](skills/gerador-de-skills-claude-juridicas/) | Cria novas skills: pergunta tipo, objetivo e área e entrega um `SKILL.md` pronto em 11 partes |
+| [gerador-de-skills-juridicas](skills/gerador-de-skills-juridicas/) | Cria novas skills: pergunta tipo, objetivo e área e entrega um `SKILL.md` pronto em 11 partes |
 
 Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 
@@ -100,13 +128,7 @@ Detalhes de cada uma no [Catálogo](docs/06-catalogo.md).
 
 **Quero só uma skill:** baixe o `.zip` pronto dela na [tabela de downloads](docs/02-instalacao.md#baixar-somente-uma-skill) e envie ao Claude.
 
-**No Claude Code, todas de uma vez:**
-
-```bash
-git clone https://github.com/oliveiracarlosadv/InteligenciaClaude.git
-mkdir -p ~/.claude/skills
-cp -R InteligenciaClaude/skills/* ~/.claude/skills/
-```
+**No Claude Code, todas de uma vez:** use a [instalação automática](#-instalação-automática-no-claude-code).
 
 **No Claude normal (claude.ai) ou no Claude Desktop:** ligue a execução de código em **Configurações → Capacidades** e envie o `.zip` em **Personalizar → Skills → + → Criar skill → Enviar uma skill**.
 
@@ -134,6 +156,8 @@ Também: [modelo de skill](templates/SKILL-modelo.md) · [histórico de mudança
 InteligenciaClaude/
 ├── README.md              ← esta página (Sobre)
 ├── CHANGELOG.md           ← histórico de versões
+├── instalar.sh            ← instalação automática (Mac/Linux)
+├── instalar.ps1           ← instalação automática (Windows)
 ├── docs/                  ← manual completo
 ├── scripts/
 │   ├── empacotar.sh       ← gera os .zip de cada skill

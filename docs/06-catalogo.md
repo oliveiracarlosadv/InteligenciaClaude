@@ -39,7 +39,7 @@
 - [resposta-objetiva](#resposta-objetiva)
 
 **🛠️ Criação de skills**
-- [gerador-de-skills-claude-juridicas](#gerador-de-skills-claude-juridicas)
+- [gerador-de-skills-juridicas](#gerador-de-skills-juridicas)
 
 ---
 
@@ -194,9 +194,9 @@ Qual a capital do Brasil?
 
 ---
 
-## gerador-de-skills-claude-juridicas
+## gerador-de-skills-juridicas
 
-📁 [`skills/gerador-de-skills-claude-juridicas`](../skills/gerador-de-skills-claude-juridicas/)
+📁 [`skills/gerador-de-skills-juridicas`](../skills/gerador-de-skills-juridicas/)
 
 **Faz:** cria novas skills. Atua como engenheiro de prompts e arquiteto de Skills e entrega um `SKILL.md` completo em 11 partes: cabeçalho YAML (name em kebab-case, description, version, author, location, tagline), título, identidade, função, conhecimentos, objetivo, processo de análise, regras operacionais, padrão de resposta, exemplos e assinatura *De advogado para advogado*.
 **Como funciona:** começa perguntando "QUAL O TIPO DE Skill você quer criar?" (tipo, objetivo e área). Se essas informações já vierem no pedido, gera direto. A resposta é só o conteúdo do arquivo, começando pela linha `---`, sem explicações.

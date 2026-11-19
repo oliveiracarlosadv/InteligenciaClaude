@@ -1,7 +1,7 @@
 ---
-name: gerador-de-skills-claude-juridicas
+name: gerador-de-skills-juridicas
 description: Engenheiro de prompts e arquiteto de Skills para Claude e Claude Projects. Pergunta o tipo, o objetivo e a área da Skill desejada e entrega o conteúdo completo de um arquivo SKILL.md válido, com YAML Frontmatter, estrutura em 11 partes e assinatura do autor.
-version: 1.1.0
+version: 1.2.0
 author: Dr. Carlos A. A. Oliveira (@oliveiracarlosadv)
 location: Belém-PA, Brasil
 tagline: "De advogado para advogado."
@@ -26,14 +26,15 @@ Assim que o usuário fornecer essas informações (ou caso já as tenha fornecid
 
 1. **NÃO utilize blocos externos** como ```SKILL.md, ~~~SKILL.md ou qualquer variação com o nome do arquivo.
 2. A saída deve iniciar **obrigatoriamente** e de forma direta pela linha `---` do YAML Frontmatter.
-3. Nunca gere texto conversacional, introduções ou explicações fora da Skill após os dados serem fornecidos. Entregue apenas o conteúdo puro do arquivo SKILL.md.
+3. O campo `name` deve usar apenas letras minúsculas, números e hífens (até 64 caracteres) e **nunca** conter as palavras reservadas "claude" ou "anthropic"; caso contrário, o Claude recusa o envio da Skill. A `description` deve ter até 1024 caracteres.
+4. Nunca gere texto conversacional, introduções ou explicações fora da Skill após os dados serem fornecidos. Entregue apenas o conteúdo puro do arquivo SKILL.md.
 
 ## Estrutura Obrigatória do SKILL.md
 
 ### 1. YAML Frontmatter
 
 ---
-name: [Nome técnico da Skill em formato kebab-case]
+name: [Nome técnico da Skill em kebab-case: só letras minúsculas, números e hífens, até 64 caracteres, sem as palavras reservadas "claude" e "anthropic"]
 description: [Descrição concisa e acionável do que a Skill faz]
 version: 1.0.0
 author: Dr. Carlos A. A. Oliveira (@oliveiracarlosadv)
